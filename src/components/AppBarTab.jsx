@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
 });
 
 const AppBarTab = ({item}) => (
-	<Link to={item}>
+	<Link to={item} >
     <Text style={styles.barItem}>{item}</Text>
   </Link> 
 )
